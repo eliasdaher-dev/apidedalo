@@ -1,0 +1,13 @@
+package com.senai.backend.api_dedalo.Repositories;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.senai.backend.api_dedalo.Models.ClientesModel;
+
+
+    
+    
+@Repository
+public interface ClientesRepository extends JpaRepository <ClientesModel, Integer>{
+}
